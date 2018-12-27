@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kv.util", "kv.util\kv.util.csproj", "{B6749E91-5FFE-4E6B-B0D3-95616B7401A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kv.util.tests", "kv.util.tests\kv.util.tests.csproj", "{FB83858E-52CE-4B8C-BB1B-FE3B569B6A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6749E91-5FFE-4E6B-B0D3-95616B7401A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6749E91-5FFE-4E6B-B0D3-95616B7401A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6749E91-5FFE-4E6B-B0D3-95616B7401A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6749E91-5FFE-4E6B-B0D3-95616B7401A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB83858E-52CE-4B8C-BB1B-FE3B569B6A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB83858E-52CE-4B8C-BB1B-FE3B569B6A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB83858E-52CE-4B8C-BB1B-FE3B569B6A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB83858E-52CE-4B8C-BB1B-FE3B569B6A69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB5ADA5-0146-4B48-A4EE-D1AE44F78005}
+	EndGlobalSection
+EndGlobal
