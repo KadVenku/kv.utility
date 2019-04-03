@@ -1,6 +1,6 @@
 namespace kv.util
 {
-    public class CompareUtility
+    public sealed class CompareUtility
     {
         public static bool IsOneOf(object obj, params object[] objectsToCompare)
         {
