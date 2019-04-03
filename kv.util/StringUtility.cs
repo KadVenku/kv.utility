@@ -1,11 +1,9 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Linq;
-using System.Text.RegularExpressions;
 
 namespace kv.util
 {
-    public class StringUtility
+    public sealed class StringUtility
     {
         public enum Comparison
         {
@@ -61,6 +59,11 @@ namespace kv.util
             if (ss == null) return false;
             return ss.Length >= 1 && (from string b in ss where !IsNullEmptyOrWhitespace(b) select b).Any(b => IsEqual(a, b, c));
 
+        }
+
+        public static string NormalizeString(string s)
+        {
+            return s.Trim().ToLowerInvariant();
         }
     }
 }
